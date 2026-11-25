@@ -1,4 +1,4 @@
-# Ghostlapse website
+# Booflip website
 
 The public pages for the App Store: a home page, the privacy policy and the terms of use.
 Plain HTML and CSS, no build step. Styled with the app's tokens (see `../DESIGN.md`) and its bundled Bricolage Grotesque font.
@@ -13,11 +13,11 @@ fonts/, ghost.png   Copied from Ghostlapse/Resources/Fonts and the GhostMark ass
 
 ## Publishing on GitHub Pages
 
-The app repo is private, so the site is published from a separate public repo, `ghostlapse-site`:
+The app repo is private, so the site is published from a separate public repo, `booflip-site`:
 
 1. Copy the contents of this folder (including `.nojekyll`) to the root of that repo and push to `main`.
 2. In that repo: **Settings → Pages → Build and deployment → Deploy from a branch**, branch `main`, folder `/ (root)`.
-3. The pages are then at `https://aurehbg.github.io/ghostlapse-site/privacy/` and `…/terms/`.
+3. The pages are then at `https://aurehbg.github.io/booflip-site/privacy/` and `…/terms/`.
 
 Put those two URLs in App Store Connect (Privacy Policy URL, and the EULA / Terms of Use link in the app description) and on the paywall.
 
